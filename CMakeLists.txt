@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8.4)
 set(CMAKE_TOOLCHAIN_FILE ../Platform/LPC1769.cmake)
 
-project(Skeleton C)
+project(GNU-LPC-Skeleton C)
 
 set(SOURCES
  src/cr_startup_lpc176x.c
